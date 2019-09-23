@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="DWoonD">
+    <title>Code Style - DWoonD</title>
+    <meta name="author" content="Willian D. Santos">
+    <meta name="description" content="DWoonD">
+    <link rel="icon" href="/assets/images/null">
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="atom.xml">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-43826424-4']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="1">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="https://dwoond.github.io">DWoonD</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="1">
+    
+    <div class="sidebar-profile">
+        <a href="/#about">
+            
+            <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+            
+        </a>
+        <span class="sidebar-profile-name">Willian D. Santos</span>
+    </div>
+    
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-categories">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categorias</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-tags">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-archives">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Arquivos</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link st-search-show-outputs" href="/#search">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Pesquisar</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/#about">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">Sobre</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://github.com/DWoonD" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://br.linkedin.com/in/williandsantos" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">Linked In</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://medium.com/@dwoond" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-medium"></i>
+                    <span class="sidebar-button-desc">Medium</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/atom.xml">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+            <div id="main" data-behavior="1">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <div class="post-header main-content-wrap">
+    
+        <h1 class="post-title" itemprop="headline">Code Style</h1>
+    
+    <div class="post-meta">
+    <time  itemprop="datePublished" content="Tue Aug 25 2015 22:48:34 GMT-0300">
+        Aug 25, 2015
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Desenvolvimento-Web/">Desenvolvimento Web</a>
+
+
+    
+</div>
+</div>
+    
+    <div class="post-content markdown main-content-wrap" itemprop="articleBody">
+        <p>Bom pessoal venho trazer para vocês uma série de posts sobre code style, espero que gostem.</p>
+<p>Code Style ou Estilo do Código diz respeito a como escrevemos o nosso código e o quanto ele é padronizado. Acredito que pode ser chamado de design pattern, porém quando pesquisei a respeito vi que é algo mais voltado a Java e outras linguagens mais side-server. Então resolvi chamar de code style que é como eu encontrei em vários Githubs de alguns desenvolvedores front end.</p>
+<p>Bom o intuito do post será começar uma série provavelmente de 4 posts:</p>
+<ul>
+<li>Code Style</li>
+<li>Code Style - HTML</li>
+<li>Code Style - CSS</li>
+<li>Code Style - JS</li>
+</ul>
+<p>O primeiro será esse dando uma introdução a respeito do code style e falando de uma forma geral do porque usar ou porque criar.</p>
+<p>O segundo post iremos criar juntos um padrão de código para html, o terceiro um padrão para css e por fim no último um padrão para o javascript.</p>
+<p>Acredito que iremos usar como base alguns padrões de códigos que encontramos por ai feito pelo pessoal da comunidade e talvez mudaremos uma coisa ou outra de acordo com minha preferência e você também será livre para criar junto o seu code style.</p>
+<blockquote>
+<p>Certo, até aqui tudo legal, mas porque raios eu vou querer criar um code style?</p>
+</blockquote>
+<p>Primeiramente um Code Style serve para podermos ter um padrão de ESCRITA de código, ou seja, seja num site, num app ou qualquer outro projeto que estejamos desenvolvendo, o code style será o padrão e quando digo padrão não quero dizer SEU padrão, pelo contrário é um padrão da equipe, ou seja, todos os devs tem que escrever igual.</p>
+<p>Uma vez li uma frase que dizia mais ou menos assim</p>
+<blockquote>
+<p>Se só você é o único que entende seu código e acha isso bom, saiba que você está errado.</p>
+</blockquote>
+<p>Não lembro onde li isso, mas o significado é exatamente isso, o fato de você, e só você entender seu código é muito ruim tanto para a empresa que você trabalha quanto para a equipe que trabalha com você e principalmente para você mesmo no futuro, pois se você desenvolve a mais de um ano sabe que a forma que você escreve código vem mudando certo? E se no futuro precisar fazer uma manutenção será que você vai entender o que você mesmo escreveu? Com um padrão você evita esse problema.</p>
+<p>Muitas empresas grandes como globo.com, locaweb e etc, tem seus próprios padrões de desenvolvimentos, algumas delas até mesmo framework próprio e isso facilita muito na hora de dar manutenção de código e escalar códigos.</p>
+<p>Outro ponto importante em conhecer alguns code styles já existentes no mercado é o fato de que se você for contribuir para algum código no GitHub por exemplo, isso conta muito na hora de seu código ser aceito ou não, afinal fica difícil de aceitar um código que terá que ser reescrito por causa de padrão de escrita.</p>
+<p>Aqui nos resta dois caminhos criar ou seguir um código.</p>
+<p>###Por que criar?</p>
+<p>Dependendo de onde você trabalha pode ser uma pequena ou grande agência ou uma softhouse, não importa, se vocês não tiverem um padrão de código, acredito que vocês devem sim criar um o quanto antes, e nesse cenário é que entrar o porque de criar, afinal como não existe precisa ser criado, não totalmente do zero, pode ser baseado em alguns encontrados no github e blogs pela internet. O importante é que exista um na empresa e uma boa utilidade para ele vai ser quando entrar um membro novo na equipe e se deparar com algo todo documentado e padronizado, a integração desse novo membro será muito mais fácil.</p>
+<p>Aqui não temos regras pessoal, é literalmente sentar com todos os desenvolvedores e ver qual a melhor forma de escrever código e a que agrade a todos, por exemplo, quanto espaços vai ter a tabulação, como vai ser feito os comentários, vai ter espaço ou não em partes especificas do código etc…</p>
+<p>A equipe cria as regras e isso deve ser seguido sempre depois de definidas, até que um dia uma pessoa qualquer leia esse código e apenas olhando pareça ser todo escrito por apenas uma pessoa.</p>
+<p>###Por que adotar um code style?</p>
+<p>Para essa pergunta a resposta vale para a anterior também, adotar um code style vai agilizar muito o desenvolvimento e manutenção de códigos, escalabilidade dos mesmos e principalmente uma integração de um novo membro para a equipe, em lugares onde a rotatividade de pessoal é grande isso facilita muito, pois é muito mais fácil explicar conceitos e funcionalidades padronizadas do que simplesmente chegar para a pessoa e dizer, leia ai e decifre.</p>
+<p>Então os ganhos são grandes principalmente para as empresas e para a equipe como um todo, afinal não trabalhamos sozinhos e se você acha que seria melhor estar sozinho, melhor repensar um pouco ;)</p>
+<p>Bom para o próximo post estaremos criando um repositório no github e começaremos o padrão que eu vou adotar na agência que eu trabalho e com isso também poder melhorar o ambiente de desenvolvimento onde trabalho, caso você tenha necessidade de criar um padrão será bem vindo para construírmos juntos, caso contrário sua opinião e sugestão será bem vinda também.</p>
+<p>É isso pessoal, ótima semana a todos, dúvidas, críticas e sugestões nos comentáriso abaixo.</p>
+<p>Abraços</p>
+
+        
+            
+        
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/code/">code</a> <a class="tag tag--primary tag--small t-link" href="/tags/code-style/">code style</a> <a class="tag tag--primary tag--small t-link" href="/tags/front-end/">front-end</a> <a class="tag tag--primary tag--small t-link" href="/tags/pattern/">pattern</a> <a class="tag tag--primary tag--small t-link" href="/tags/style/">style</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/Codigo-Feio-Codigo-Bonito/"  data-tooltip="Código Feio? Código Bonito?">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/O-basico-de-Markdown/" data-tooltip="O básico de Markdown">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+        
+            <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2019 Willian D. Santos. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/Codigo-Feio-Codigo-Bonito/"  data-tooltip="Código Feio? Código Bonito?">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/O-basico-de-Markdown/" data-tooltip="O básico de Markdown">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/Code-Style/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+                </div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=110"/>
+        
+            <h4 id="about-card-name">Willian D. Santos</h4>
+        
+            <h5 id="about-card-bio"><p>Web Developer and writer in his spare time, passionate about technology and each day writing more and more code.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Front End Development Analyst at Accenture Interactive</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                São Paulo - SP - Brazil
+            </h5>
+        
+    </div>
+</div>
+        <div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script.min.js"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'dwoondgithub';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>

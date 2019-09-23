@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="DWoonD">
+    <title>Criando seu site com Hexo - DWoonD</title>
+    <meta name="author" content="Willian D. Santos">
+    <meta name="description" content="DWoonD">
+    <link rel="icon" href="/assets/images/null">
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="atom.xml">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-43826424-4']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="1">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="https://dwoond.github.io">DWoonD</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="1">
+    
+    <div class="sidebar-profile">
+        <a href="/#about">
+            
+            <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+            
+        </a>
+        <span class="sidebar-profile-name">Willian D. Santos</span>
+    </div>
+    
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-categories">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categorias</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-tags">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-archives">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Arquivos</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link st-search-show-outputs" href="/#search">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Pesquisar</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/#about">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">Sobre</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://github.com/DWoonD" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://br.linkedin.com/in/williandsantos" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">Linked In</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://medium.com/@dwoond" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-medium"></i>
+                    <span class="sidebar-button-desc">Medium</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/atom.xml">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+            <div id="main" data-behavior="1">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <div class="post-header main-content-wrap">
+    
+        <h1 class="post-title" itemprop="headline">Criando seu site com Hexo</h1>
+    
+    <div class="post-meta">
+    <time  itemprop="datePublished" content="Wed Jul 22 2015 19:59:28 GMT-0300">
+        Jul 22, 2015
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Desenvolvimento-Web/">Desenvolvimento Web</a>
+
+
+    
+</div>
+</div>
+    
+    <div class="post-content markdown main-content-wrap" itemprop="articleBody">
+        <p>##Introdução</p>
+<p>Nesse post vamos aprender a criar um site estático com um framework de blog, chamado Hexo.<br>Como na descrição do próprio framework o Hexo é rápido, simples e poderoso. O grande diferencial e que me fez adotar o Hexo para criar esse blog é que é realmente simples, e pelo fato de fazer um deploy diretamente para o <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> facilitando assim muito a produção e o ambiente de desenvolvimento.<br>Claro que você pode levar outras coisas em conta, mas se você quer aprender coisas novas, usar linha de comando e ainda assim gerar artigos você poderá fazer isso com Hexo.</p>
+<p>##Características</p>
+<ol>
+<li>Rapidez para gerar os arquivos. Com a base feita em nodejs, isso agiliza e muito a hora de produção e criação do seu blog/site.</li>
+<li>Apenas um comando para publicar, ou seja, digitou hexo deploy no seu terminal e seu blog é publicado no mesmo momento.</li>
+<li>Suporta Markdown, é uma linguagem de marcação, ou como eles dizem, não é uma linguagem de marcação, é uma forma de você escrever o seu site sem a necessidade de ficar abrindo e fechando tags em HTML etc. Pode ser estranho no início, mas a curva de aprendizado é bem rápida.</li>
+<li>Suporta Plugins, não é um wordpress da vida, mas também tem suporte a alguns plugins que iremos falar mais abaixo.</li>
+<li>Estrutura de pastas de fácil entendimento.</li>
+<li>Permite personalização através de temas, (futuramente irei postar como criar e personalizar temas).</li>
+</ol>
+<p>##Iniciando</p>
+<p>Para começar você deve ir até o site do <a href="http://hexo.io" target="_blank" rel="noopener">Hexo</a> e presumindo que você já tenha o nodejs instalado, caso não tenha, vá até o site do <a href="http://nodejs.org" target="_blank" rel="noopener">NodeJs</a> e instale para o seu sistema operacional, aqui no meu caso eu uso Windows (e não tenho problema com isso ;p).</p>
+<p>Feito isso basta rodar o comando:</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-<span class="keyword">cli</span> -g</span><br></pre></td></tr></table></figure>
+<p>Feito isso você poderá executar os comandos do hexo através do terminal do cmd. Apenas uma observação aqui.</p>
+<blockquote>
+<p>Você pode configurar o windows de uma forma que você consiga executar node, ruby, git etc, tudo pelo cmd, configurando as variáveis de sistema. Qualquer dúvida deixem nos comentários.</p>
+</blockquote>
+<p>Os próximos comandos de exemplo são:</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init <span class="keyword">blog</span></span><br><span class="line"><span class="keyword">cd </span><span class="keyword">blog</span></span><br><span class="line"><span class="keyword">npm </span><span class="keyword">install</span></span><br><span class="line"><span class="keyword">hexo </span>server</span><br></pre></td></tr></table></figure>
+<p>O primeiro deles inicia o projeto dentro de uma pasta chamada blog no diretório que você estiver.<br>O segundo entra dentro da pasta blog.<br>O terceiro comando vai instalar todas as dependências do Hexo<br>E o quarto e último você vai rodar o servidor localhost do seu projeto, que por padrão fica no localhost:4000.</p>
+<p>Com isso já temos um blog de exemplo sendo executado, cabendo a nós apenas a personalização do mesmo. E claro a criação de conteúdo e também o deploy para o GitHub Pages.<br>Então vamos lá que ainda temos bastante coisa para ver ^.^</p>
+<p>###Página de Exemplo do Blog</p>
+<p>Na página de demonstração do Hexo ele nos apresenta a mais 3 comandos novos.</p>
+<ol>
+<li>hexo new “Meu novo Post”</li>
+<li>hexo generate</li>
+<li>hexo deploy</li>
+</ol>
+<p>O primeiro faz com que o hexo crie um novo post sendo que o que estiver entre as aspas será o título do post. Feito isso o hexo irá criar um arquivo com o nome do seu post, preenchendo os espaços vazios com hífens. O arquivo vai ficar dentro da pasta source/_post. Abrindo ele você poderá criar todo o conteúdo que você deseja para o seu post.</p>
+<p>A primeira estrutura que aparece no arquivo é:</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Meu</span> <span class="string">novo</span> <span class="string">Post</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2015</span><span class="bullet">-07</span><span class="bullet">-22</span> <span class="number">19</span><span class="string">:59:28</span></span><br><span class="line"><span class="attr">category:</span> <span class="string">Desenvolvimento</span> <span class="string">web</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line"><span class="bullet"> -</span> <span class="string">hexo</span></span><br><span class="line"><span class="bullet"> -</span> <span class="string">sites</span> <span class="string">estáticos</span></span><br><span class="line"><span class="bullet"> -</span> <span class="string">github</span> <span class="string">pages</span></span><br><span class="line"><span class="bullet"> -</span> <span class="string">tutorial</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>Title: Definirá o Título da página e do post<br>date: Data que o post foi criado<br>category: Você pode criar categorias para agrupar seus posts<br>tags: Serve como uma categoria também porém mais fraca.</p>
+<p>Abaixo dos - - -</p>
+<p>Ai você pode criar o que você quiser usando markdown para formatar.<br>Teremos um guia de sintaxe markdown em breve não se preocupe, por hora essa página pode te ajudar <a href="https://help.github.com/articles/markdown-basics/" target="_blank" rel="noopener">Markdon Basics</a>.</p>
+<p>###Personalizando</p>
+<p>A princípio quando instalamos o Hexo e rodamos o comando hexo server no nosso terminal, acamos sendo redirecionado para a página de exemplo e também com o tema padrão que vem com o hexo. O tema padrão é o <code>landscape</code> você pode substituir esse tema facilmente através da lista de temas do próprio hexo que pode ser encontrada na <a href="https://hexo.io/themes/" target="_blank" rel="noopener">lista de temas</a> ou aqui no <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">GitHub</a>(que é bem mais abrangente)</p>
+<p>Depois de escolher o tema que você quer, basta seguir a documentação do mesmo para configurar ele e fazer funcionar de acordo com a sua necessidade, em relação a post, recursos e etc.</p>
+<p>Outras coisas importantes pessoal sobre personalização e entra também a questão de configuração, é dar uma atenção especial ao seu arquivo <code>_config.yml</code> pois através dele você pode configurar qualquer coisa no seu blog/site e principalmente é aqui que você deve alterar o nome do tema na linha <code>theme</code> para o nome do tema que você baixou e escolheu.</p>
+<p>As informações são separadas por blocos e autoexplicativas, caso tenham dúvidas podem perguntar nos comentários e caso haja necessidade eu crio um outro post explicando linha a linha do arquivo.</p>
+<p>###Plugins</p>
+<p>Plugins são outras fontes muito valiosa para qualquer blog/site. No caso do Hexo não poderia ser diferente e o mesmo possui uma <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">lista de plugins</a>. Temos plugins diversos para diversas ações, desde melhorar o código gerado, com para deploy que iremos usar na seção abaixo. Caso tenha alguma dúvida você pode estar lendo a <a href="https://hexo.io/docs/plugins.html" target="_blank" rel="noopener">página de plugins</a> na documentação ou a própria página do plugin que você escolheu e está com dificuldade. A documentação está em inglês por enquanto, não sei se alguém está trabalhando na tradução, mas eu estou e falta traduzir a API e três páginas apenas da documentação. Então logo mais terá em português BR também</p>
+<p>###Deploy GitHub Pages</p>
+<p>Para fazer deploy direto para o dominio.github.io você terá que alterar isso no seu arquivo de _config (aqui você pode optar pelo do Hexo ou pelo do seu tema, caso esteja usando algum tema que tenha essa opção.)<br>Antes de mais nada pessoal a primeira coisa que deve ser feita é criar o repositório no <a href="http://github.com" target="_blank" rel="noopener">GitHub</a> com o nome do seu site, ex: meusite.github.io, depois disso vá até a página de <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="noopener">deploy</a> e siga as instruções para que você possa fazer o deploy diretamente para o seu site.</p>
+<p>A segunda coisa a fazer, conforme está na página é a instalação do plugin do git com o comando<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-deployer-git --save</span></span><br></pre></td></tr></table></figure></p>
+<p>Depois disso no seu arquivo <code>_config.yml</code> você altera ou cria a opção:<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>: </span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repo</span>: <span class="attribute">https</span>:<span class="comment">//github.com/seurepositório/meusite.github.io.git</span></span><br></pre></td></tr></table></figure></p>
+<p>E por último quando estiver pronto para fazer o deploy do seu site para o GitHub Pages, basta executar o comando:</p>
+<p><code>hexo deploy --generate</code></p>
+<p>Que ele irá gerar todos os arquivos estáticos do seu site/blog e irá automaticamente publicar no seu site.</p>
+<p>Bom pessoal, espero que tenha ajudado vocês a aprender alguma coisa legal, nesse aritgo e qualquer dúvida só chamar nos comentários.</p>
+<p>Obrigado e Abraços…</p>
+
+        
+            
+        
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/github-pages/">github pages</a> <a class="tag tag--primary tag--small t-link" href="/tags/hexo/">hexo</a> <a class="tag tag--primary tag--small t-link" href="/tags/sites-estaticos/">sites estáticos</a> <a class="tag tag--primary tag--small t-link" href="/tags/tutorial/">tutorial</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/A-importancia-da-equipe-unida/"  data-tooltip="A importância da equipe unida">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/comunidade-palestras/" data-tooltip="Comunidade e Palestras">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+        
+            <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2019 Willian D. Santos. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/A-importancia-da-equipe-unida/"  data-tooltip="A importância da equipe unida">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/comunidade-palestras/" data-tooltip="Comunidade e Palestras">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/Criando-seu-site-com-Hexo/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+                </div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=110"/>
+        
+            <h4 id="about-card-name">Willian D. Santos</h4>
+        
+            <h5 id="about-card-bio"><p>Web Developer and writer in his spare time, passionate about technology and each day writing more and more code.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Front End Development Analyst at Accenture Interactive</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                São Paulo - SP - Brazil
+            </h5>
+        
+    </div>
+</div>
+        <div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script.min.js"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'dwoondgithub';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="DWoonD">
+    <title>CodeStyle-CSS Padrões - DWoonD</title>
+    <meta name="author" content="Willian D. Santos">
+    <meta name="description" content="DWoonD">
+    <link rel="icon" href="/assets/images/null">
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="atom.xml">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-43826424-4']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="1">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="https://dwoond.github.io">DWoonD</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="1">
+    
+    <div class="sidebar-profile">
+        <a href="/#about">
+            
+            <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=90"/>
+            
+        </a>
+        <span class="sidebar-profile-name">Willian D. Santos</span>
+    </div>
+    
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-categories">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categorias</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-tags">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/all-archives">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Arquivos</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link st-search-show-outputs" href="/#search">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Pesquisar</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/#about">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">Sobre</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://github.com/DWoonD" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://br.linkedin.com/in/williandsantos" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">Linked In</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="https://medium.com/@dwoond" target="_blank">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-medium"></i>
+                    <span class="sidebar-button-desc">Medium</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+            
+                <a  class="sidebar-button-link " href="/atom.xml">
+            
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+            <div id="main" data-behavior="1">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <div class="post-header main-content-wrap">
+    
+        <h1 class="post-title" itemprop="headline">CodeStyle-CSS Padrões</h1>
+    
+    <div class="post-meta">
+    <time  itemprop="datePublished" content="Wed May 04 2016 20:21:41 GMT-0300">
+        May 04, 2016
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Desenvolvimento-Web/">Desenvolvimento Web</a>
+
+
+    
+</div>
+</div>
+    
+    <div class="post-content markdown main-content-wrap" itemprop="articleBody">
+        <p>Faaaaaala galera (copiando um pouco o Daniel Filho),<br>Estou trazendo para vocês depois de um tempo a continuação da série sobre code style e hoje vamos falar um pouco a respeito de padrões CSS já estabelecidos ai no mercado e adotado por várias equipes e empresas pelo mundo a fora. Sei que faz um tempo que o blog está parado, mas agora que estou conseguindo colocar um pouco de ordem na correria do dia a dia e conseguindo postar mais, mas isso são assuntos para outros posts.<br>Bom vamos lá então…</p>
+<p>Para começar os padrões que vamos abordar aqui hoje serão:</p>
+<ul>
+<li>CSS Orientado a Objetos</li>
+<li>SMACSS</li>
+<li>BEM</li>
+<li>ITCSS</li>
+</ul>
+<p>e também vou dar umas dicas gerais, que podemos acrescentar junto a esses padrões para termos um pouco mais de performance.</p>
+<p>Bom vamos pelo primeiro então.</p>
+<p>##CSS Orientado a Objetos</p>
+<p>Orientação a objeto é um termo clássico quando se trata de desenvolvimento de software e principalmente conhecido quando se está no desenvolvimento back-end, ou de linguagens mais robustas e claro cada uma com suas particularidades.<br>A essência da orientação a objeto é evitar a repetição de código. O OOCSS ou CSS Orientado a Objetos começou em 2009 com <strong>Dona Sullivan</strong> ex Yahoo depois de analizar muito de seus códigos antigos reparou que há muita repetição e com isso propôs o OOCSS:</p>
+<blockquote>
+<p>Para deixar bem claro, não se trata de mudar a sintaxe do CSS ou instalar algum pacote mágico que o fará melhor. CSS orientado a objetos é uma metáfora para indicar que é possível escrever um CSS mais eficiente, sem repetições, que seja mais profissional e é considerado por alguns até como framework.</p>
+</blockquote>
+<p>Alguns dos prolemas que o OOCSS visa resolver</p>
+<ul>
+<li>A dificuldade de tocar projetos de médio/grande porte.</li>
+<li>O tamanho dos arquivos CSS é cada vez maior conforme o projeto evolui.</li>
+<li>Reúso de código quase inexistente (pessoas não confiam em código alheio).</li>
+<li>Código frágil (até o melhor código pode se perder quando um não expert mexe nele).</li>
+</ul>
+<p>Segundo a Dona Sullivan (<a href="http://pt.slideshare.net/stubbornella/object-oriented-css" target="_blank" rel="noopener">slides</a>), as soluções que emergem do uso de OOCSS são inúmeras (e tentadoras), tornando seu CSS:</p>
+<ul>
+<li>Modular: combinável, reusável e extensível.</li>
+<li>Leve: relacionamento 1:N entre CSS e potenciais layouts.</li>
+<li>Rápido: poucas requisições HTTP e tamanhos mínimos de arquivos.</li>
+<li>Pronto para o futuro: manutenível, semântico e padronizado.</li>
+<li>Simplificado e acessível: um bombonzinho!</li>
+</ul>
+<p><strong>Princípios de OOCSS</strong></p>
+<p>Dentro da proposta do OOCSS exitem dois princípios mais importante</p>
+<ol>
+<li>Separar estrutura e skins</li>
+<li>Separar container e conteúdo</li>
+</ol>
+<p><strong>Separar estruturas e skins</strong> significa repetir características visuas <code>skins</code> separadas, que podem ser combinadas em vários “objetos” para conseguir-se muitas variações sem muito código. Ex. <code>Backgrounds e bordas</code>.<br>Outro bom conselho é sempre usar classes para nomear ojetos ao invés do HTML, pois assim você mantém seu código receptivo a novas atualizações de sintaxe do html sem mecher no CSS futuramente.</p>
+<p><strong>Separar o conteinar e conteúdo</strong> essencialmente quer dizer: raramente use estilos que dependam da localização. Idealmente, um objeto deve parecer igual onde quer que ele esteja dentro da página ou em qualquer outro lugar que ele for chamado.</p>
+<p>Melhor<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">HTML</span><br><span class="line">&lt;<span class="selector-tag">h2</span> class=<span class="string">"category-title"</span>&gt;</span><br><span class="line"></span><br><span class="line">CSS</span><br><span class="line"><span class="selector-class">.category</span> title &#123;&#125;</span><br></pre></td></tr></table></figure></p>
+<p>do que<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">CSS</span><br><span class="line"><span class="selector-class">.category-title</span> <span class="selector-tag">h2</span> &#123;&#125;</span><br><span class="line">&lt;<span class="selector-tag">div</span> class=<span class="string">"category-title"</span>&gt;</span><br><span class="line">	&lt;h2&gt;&lt;/h2&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p><strong>O que é um “Objeto” no CSS?</strong><br>Um objeto CSS é formado por 4 elementos:</p>
+<ol>
+<li>HTML - Que pode ser 1 ou mais nós no DOM</li>
+<li>Declarações CSS, que estilizam estes nós, começando com o nome da classe referente ao wrapper</li>
+<li>Componentes como imagens de backgrounds ou sprites, por exemplo</li>
+<li>Comportamentos Javascripts, listeners ou métodos associados</li>
+</ol>
+<p>Pode ficar confuso se você tentar sempre fazer analogia a objetos de outras linguagens como PHP etc, então vou tentar por um exemplo para facilitar:<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">"mod"</span>&gt;</span><br><span class="line">	&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">"inner"</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">"hd"</span>&gt;Bloco Head&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">"bd"</span>&gt;Bloco Body&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">"ft"</span>&gt;Bloco Foot&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">	&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">&lt;/<span class="keyword">div</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>O objeto é um módulo, indicado pela classe mod. Ele contém 4 nós-propriedades (que não podem existir sem o módulo), incluindo 2 regiões obrigatórias ( inner e bd) e 2 regiões opcionais ( hd e ft).</p>
+<p><strong>OOCSS e performance</strong></p>
+<p>Usar OOCSS também traz o benefício da performance, que é duplo:</p>
+<ul>
+<li>Intenso reúso de código: o que significa menos código CSS, arquivos menores e transferências mais rápidas;</li>
+<li>Menos repaints e reflows: se não sabe o que isso significa, leia o artigo: <a href="http://goo.gl/9rCo4B" target="_blank" rel="noopener">O que todo desenvolvedor front-end deve saber sobre renderização de páginas web</a></li>
+</ul>
+<p>##SMACSS<br>Foi criada por Jonathan Snook, significa Scalable and Modular Architeture for CSS ou Arquitetura Escalável e Modular para CSS, e é mais uma normatização para podermos estruturar o código CSS. O SMACSS propõe que dividemos o nosso css em partes. Essas partes são:</p>
+<ul>
+<li>Base</li>
+<li>Layout</li>
+<li>Module</li>
+<li>States</li>
+<li>Theme</li>
+</ul>
+<p>Cada abordagem tem suas particularidades que iremos discutir abaixo. Caso queira saber mais sobre SMACSS basta acessar o <a href="http://smacss.com" target="_blank" rel="noopener">site oficial</a> deles e eles vendem um livro também..<br>Dependendo do tamanho do projeto vc pode adotar essa estrutura de duas formas, a primeira é fazendo dentro da sua pasta CSS um arquivo para cada camada, eu pessoalmente prefiro criar dentro da pasta de CSS uma pasta para cada camada e então para cada necessidade eu acabo criando um arquivo.</p>
+<p>###Base</p>
+<p>As regras de base serão utilizadas para poder estilizar basicamente todos as tags HTML diretamente. Aqui dificilmente iremos ver um !important ou algo similar pois são os estilos mais básicos para cada elemento. Normalmente colocamos o reset nessa camada. Como falei acima, poderia ter uma base.css e um arquivo reset.css. Se vc utilizar pre processador CSS, ai vc pode colocar os arquivos de configurações aqui e também o de mixins.</p>
+<p>###Layout</p>
+<p>Na camada de layout vamos estilizar as partes do layout que normalmente não se repetem, por exemplo, header, main, sidebar e footer. Pense no layout como a camada que definira o wireframe do site, app, etc. Nessa camada também podemos separar cada arquivo para poder ter um maior controle quando o site ou a aplicação começar a escalar, por exemplo, header.css, main.css, sidebar.css e footer.css. Há uma convenção de nomenclatura no SMACSS que os layouts sejam escritos com l- para que quem veja o código possa identificar que faz parte de um layout, no nosso caso como estamos separando por arquivo, não sei se faz sentido, mas fica a critério de cada um.</p>
+<p>###Module<br>Os módulos como o próprio nome diz são as partes que vamos criar para que sejam ou não reaproveitadas em outros lugares no projeto, então por isso eles nunca devem se prender a localização por exemplo, ou nenhuma outra forma que pode variar o módulo. Por exemplo, um módulo de busca, deve parecer e ser exatamente igual seja no header, no sidebar ou no footer.</p>
+<p>###States<br>States ou estados no nosso querido português, são estilos de css que definem um estado de um módulo (normalmente um módulo), por exemplo, se o módulo está ativo poderiamos ter um state .is-active e os atributos que definem a diferença do módulo normal para o módulo ativo. Há uma convenção de nomenclatura no SMACSS que os módulos sejam escritos com a preprosição is- para que qualquer um que olhe o css saiba que se trata de um state. E aqui como em todas as camadas também podem haver as separações por arquivos.</p>
+<p>###Theme<br>Na camada theme, é onde podemos personalizar o nosso site e estilizar eles de acordo com o tema que quisermos, o exemplo mais fácil de visualizar nisso é criar temas para datas comemorativas, natal, pascoa etc. Cada tema pode ter seu arquivo christmas.css, easter.css.</p>
+<p>##BEM<br>O nome BEM é um acrônimo para Block, Element, Modifier ou Bloco, Elemento, Modificador. Surgiu da nescessidade da Yandex uma empresa russa que tem vários serviços web, e um dos maiores buscadores de marketing share da Russia. Quando tiveram a necessidade de crescer os projetos e manter um front end mais consistente surgiu o BEM, que na verdade é uma metodologia completa, mas aqui no ocidente estamos por hora usando apenas a convenção de nomenclatura. Caso queira saber mais sobre o conceito todo só acessar o <a href="http://bem.info" target="_blank" rel="noopener">site</a>.</p>
+<p>Em termos simples quando utilizamos o BEM temos</p>
+<ul>
+<li><em>Bloco</em><ul>
+<li>Entidade independente com seu próprio significado, é a abstração mais geral de um componente módulo.</li>
+</ul>
+</li>
+<li><em>Elemento</em><ul>
+<li>Descendente e parte de um bloco, ajuda a forma-lo, como um todo.</li>
+</ul>
+</li>
+<li><p><em>Modificador</em></p>
+<ul>
+<li>Um estado ou versão diferente do Bloco ou Elemento</li>
+</ul>
+<p>Acredito que com a descrição acima já da para pegar a base da ideia de como funciona o BEM para facilitar vamos pegar como exemplo um grupo de tabs.<br>O grupo todo seria o <strong>Bloco</strong>, cada tab seria um <strong>Elemento</strong> e o <strong>Modificador</strong> seria quando ela está selecionada. </p>
+</li>
+</ul>
+<p><img src="menu-items.png" alt="Imagem mostrando o Bloco e Elementos de um grupo de abas"></p>
+<p> Para mais detalhes recomendo o <a href="https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/" target="_blank" rel="noopener">artigo por uma das desenvolvedoras da própria Yandex, <strong>Varvara Stepanova</strong></a></p>
+<p>Agora como podemos utilizar isso no nosso dia a dia e na nossa folhas de estilos, simples, escrever BEM, é relativamente tranquilo, basta seguir os guias definidos. Por exemplo</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.block</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.block__element</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.block--modifier</span> &#123;&#125;</span><br></pre></td></tr></table></figure>
+<p>Isso é uma convenção para facilitar que todos que utilizem BEM consigam identificar e saber o que cada componente faz diretamente. Um exemplo mais abstrato:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.person</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.person__hand</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.person--female</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.person--female__hand</span> &#123;&#125;</span><br><span class="line"><span class="selector-class">.person__hand--left</span> &#123;&#125;</span><br></pre></td></tr></table></figure></p>
+<p>O bloco <code>person</code> tem vários Elementos, como <code>hand</code> e pode ter modificadores como <code>female</code>. Por sua vez, os <code>elementos</code> também podem ter <code>modificadores</code> como no caso do <code>left</code>.</p>
+<p>Bom algumas pessoas podem achar feio escrever dessa forma pelo impacto de tantos underlines e hífens, porém isso facilita muito na hora de codar e manter o código crescente e de fácil manutenção.<br>Algumas vantagens do BEM</p>
+<ul>
+<li>Código desacoplado;</li>
+<li>Reúso automático de código;</li>
+<li>Menos repetições;</li>
+<li>Rápida identificação de estruturas HTML através do CSS e vice-versa;</li>
+<li>Independência absoluta de classes;</li>
+<li>Seletores menores e mais performáticos;</li>
+<li>CSS mais manutenível.</li>
+</ul>
+<p>##ITCSS<br>Também chamado de Inverted Triangle CSS. Foi criado por Harry Roberts, que quando abordado sobre a necessidade de uma arquitetura css deu a seguinte respota</p>
+<blockquote>
+<p>CSS é incrivelmente fácil de escrever, mas possui uma ordem de magnitude mais difícil para se gerir, manter e escalar. Como os projetos ficam mais maduros e maiores, CSS pode realmente começar a “comer pelas beiradas”, causando quantidades incalculáveis de confusão, dores de cabeça e frustrações para os desenvolvedores responsáveis por geri-los. Isso se dá, principalmente, devido a uma série de princípios fundamentais de CSS que tornam inerentemente mais difícil a gestão de qualquer projeto de UI não trivial.</p>
+</blockquote>
+<p>Pensando nesse tipo de limitação foi criado o ITCSS, trata-se de uma metodologia bastante simples de trabalhar que propõe uma arquitetura de CSS diferente mas eficiente.</p>
+<p> Alguns dos principais benefícios de usar ITCSS são:</p>
+<ul>
+<li>Por ser simplíssima, é uma metodologia acessível a qualquer um;</li>
+<li>Organiza e gerencia o código em cascata;</li>
+<li>Cria uma organização, na qual se sabe onde cada parte do código deve estar;</li>
+<li>Reduz perdas e redundância de código;</li>
+<li>Evita dores de cabeça com especificidade CSS </li>
+</ul>
+<p>Parece muito bom para ser verdade, mas acredite: simplesmente é!</p>
+<p><strong>As camadas do ITCSS</strong>    </p>
+<p>As 7 camadas do triângulo invertido são:</p>
+<ul>
+<li>Configurações (Settings): variáveis e configurações globais;</li>
+<li>Ferramentas (Tools): funções e mixins;</li>
+<li>Genérico (Generic): estilos genéricos (resets, normalizes etc.);</li>
+<li>Elementos (Elements): estilização de elementos HTML diretamente;</li>
+<li>Objetos (Objects): padrões não cosméticos (mais sobre OOCSS em 3);</li>
+<li>Componentes (Components): peças de UI isoladas (menu dropdown,<br>carousel etc.);</li>
+<li>Trumps: utilitários, helpers, sobrescritas e hacks.</li>
+</ul>
+<p><img src="itcss.jpg" alt="Imagem do Triângulo invertido do ITCSS"></p>
+<p>Além dessa organização mais formal, ITCSS é norteado  por princípios gerais.</p>
+<ul>
+<li>Sem uso de IDs, somente classes</li>
+<li>Criação modular de componentes, em vez de páginas</li>
+<li>Uso e abuso de classes no HTML (nada de economia de caracteres aqui)</li>
+</ul>
+<p>Para complementar sua robustez, ITCSS é construída em cima de 3 métricas-chave:</p>
+<ul>
+<li>Geral para explícito: começa-se pelos estilos mais gerais e genéricos possíveis e, a partir daí, vão-se colocando camadas de estilo adicionais;</li>
+<li>Baixa Especificidade para alta Especificidade: regras com especificidade menor aparecem em camadas mais genéricas; regras de maior, em camadas mais específicas/ focadas;</li>
+<li>Muito alcance para pouco alcance: as regras presentes em camadas mais genéricas afetam grande parte do DOM e, à medida que vão se afunilando, alcançam cada vez menos porções.</li>
+</ul>
+<p><img src="itcss2.jpg" alt="Imagem do Triângulo invertido do ITCSS"></p>
+<p>Consruir o código seguindo essas métricas garante que o código seja escrito em ordem lógica e progressiva.</p>
+<p><strong>Configurações (settings)</strong><br>Quando pensar na camada Configurações, pense no termo estilos globais, já que é exatamente onde esse tipo de estilo deve estar.</p>
+<p><strong>Ferramentas (tools)</strong><br>A camada Ferramentas deve conter funções e mixins (olha os préprocessadores CSS aí) relativos ao projeto. Essa camada vem logo após a de Configurações, porque pode ser necessário que alguma função ou mixin faça uso de uma configuração global qualquer.</p>
+<p><strong>Genérico (generic)</strong><br>Na camada Genérico é que o CSS que efetivamente vai entrar em ação o resultado da compilação do pré-processador, diga-se dessa forma começa a ser escrito. Aqui é onde se definirão eventuais CSS resets; onde se coloca um Normalize.css <a href="http://goo.gl/YFPLMO" target="_blank" rel="noopener">http://goo.gl/YFPLMO</a> ; e onde um box-sizing geral é definido.<br>Essa camada afeta a imensa maioria do DOM, por isso, deve ser mais ampla e genérica, estando mais para a base do triângulo invertido.</p>
+<p><strong>Elementos (elements)</strong><br>Na camada Elementos, consta a estilização de elementos HTML, propriamente ditos. Seguindo nametodologia do ITCSS, é uma camada ligeiramente mais específica que comporta estilizações de elementos HTML diretamente, conforme as necessidades do projeto. Devido ao tipo de estilização que há nela, geralmente depois de definidos os estilos, não é necessário que se mexa mais com eles, ficando essa tarefa para as camadas mais específicas do triângulo.</p>
+<p><strong>Objetos (objects)</strong><br>A camada Objetos comporta estilos não cosméticos/abstratos, remetendo mais a OOCSS, grids, contêineres e outros desta natureza.</p>
+<p><strong>Componentes (components)</strong><br>A camada Componentes é a que comporta o maior número de estilizações, já que nela devem constar os códigos dos elementos de UI do projeto (menus, carousels, slider etc.). Para facilitar o entendimento, faça um paralelo com os Módulos de SMACSS. Seguindo a proposta do ITCSS, essa é uma camada mais específica, que faz uso de tudo o que foi definido nas anteriores, tendo um nível de especificidade maior.</p>
+<p><strong>Trumps</strong><br>Para ter-se um código totalmente elegante e formal, a camada Componentes poderia ter sido considerada a última. Porém, como “na prática, a teoria é outra”, ITCSS usa a camada Trumps como uma maneira de vencer (beats) os estilos das anteriores (se necessário), tornando-se o último bastião de estilização dentro da metodologia.<br>Esta camada contém utilitários, helpers, sobrescritas e hacks e, devido ao propósito pelo qual existe, não se acanhe em usar !important se necessário.<br>Trumps é a ponta do triângulo e, em decorrência disso, a camada com as regras mais específicas, explícitas e focadas.</p>
+<p><strong>Organização do código com ITCSS</strong><br>Como foi possível perceber, a estrutura triangular invertida de ITCSS permite a organização do código, não mais por função estilos para tipografia, para formulários etc. Agora, organiza-se por explicitude e especificidade.<br>Em função da organização de ITCSS, a hierarquia, a cascata e a especificidade CSS trabalhama favor do desenvolvedor, já que cada camada somente dá prosseguimento ao que a anterior já definiu!</p>
+<p>Dentro da estrutura de camadas de ITCSS, você pode usar a ordem de importação que quiser, desde que sejam obedecidos os seguintes critérios de similaridade:<br>• Especificidade: todos os seletores de elementos ou de classes ou todos utilitários com !important etc.;<br>• Explicitude: estilizar todos os elementos base HTML ou de UI etc.;<br>• Alcance: capacidade de afetar todo o DOM(por exemplo, * {}); partes do DOM(exemplo, a {}); uma seção do DOM( .carousel {}); ou um nó específico do DOM ( .clearfix {}).</p>
+<p><strong>Visão Geral</strong><br>Como visto, ITCSS é uma nova maneira de pensar e organizar a arquitetura CSS de seus projetos. Sua estrutura permite parar de ordená-los por temas e passar a usar métricas úteis de CSS. Para isso, ele é organizado funcionalmente em camadas que aproveitam a hierarquia, cascata e especificidade CSS. Como qualquer metodologia, não se trata de regras rígidas nem conceitos escritos em pedra. Caso tenha gostado, mas gostaria de alterar uma ou outra coisa, sinta-se à vontade! A metodologia foi criada para ajudar, não para atrapalhar. Portanto, teste, experimente, use, reúse e adapte-a conforme seja necessário, sempre aproveitando o que de melhor ITCSS tem a oferecer!</p>
+<p>##Dicas Gerais</p>
+<ul>
+<li><em>Usar nomenclaturas em Inglês</em></li>
+<li>Não deixar de usar um <a href="http://dwoond.github.io/CodeStyle-CSS/">padrão de escrita para o seu CSS</a>.</li>
+</ul>
+<p>##Conclusão<br>Vimos aqui várias formas de poder estruturar e organizar o nosso CSS, quero deixar claro que isso pode variar de projeto a projeto, de equipe a equipe e nada aqui é uma regra absoluta, você pode escolher utilizar um pouco de cada e o que se adequar melhor, isso só precisa ficar bem alinhado com a equipe de trabalho para evitar futuros problemas.<br>Caso tenham alguma dúvida podem deixar abaixo e até a próxima.</p>
+
+        
+            
+        
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/code/">code</a> <a class="tag tag--primary tag--small t-link" href="/tags/code-style/">code style</a> <a class="tag tag--primary tag--small t-link" href="/tags/css/">css</a> <a class="tag tag--primary tag--small t-link" href="/tags/front-end/">front-end</a> <a class="tag tag--primary tag--small t-link" href="/tags/pattern/">pattern</a> <a class="tag tag--primary tag--small t-link" href="/tags/style/">style</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/A-Importancia-da-Comunidade/"  data-tooltip="A Importancia da Comunidade">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/CodeStyle-CSS/" data-tooltip="CodeStyle - CSS">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+        
+            <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2019 Willian D. Santos. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/A-Importancia-da-Comunidade/"  data-tooltip="A Importancia da Comunidade">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/CodeStyle-CSS/" data-tooltip="CodeStyle - CSS">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://dwoond.github.io/CodeStyle-CSS-Padroes/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action hide-xs">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+
+                </div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://www.gravatar.com/avatar/33988a460814d753faf53a8db2d9380c?s=110"/>
+        
+            <h4 id="about-card-name">Willian D. Santos</h4>
+        
+            <h5 id="about-card-bio"><p>Web Developer and writer in his spare time, passionate about technology and each day writing more and more code.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Front End Development Analyst at Accenture Interactive</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                São Paulo - SP - Brazil
+            </h5>
+        
+    </div>
+</div>
+        <div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script.min.js"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'dwoondgithub';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>
